@@ -1,5 +1,5 @@
 FROM node:12.16-stretch-slim
-LABEL  maintainer "Manabu TERADA <terada@cmscom.jp>""
+LABEL  maintainer "Manabu TERADA <terada@cmscom.jp>"
 
 RUN apt-get update -y
 RUN apt-get install -y yarn
